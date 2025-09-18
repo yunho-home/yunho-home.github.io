@@ -1,20 +1,130 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>열공</title>
-  </head>
-  <body>
-    <h1>안녕</h1>
-    <div>
-      <header>
-        <h1>해더</h1>
-      </header>
-      <main>
-        <h1>메인</h1>
-      </main>
-      <footer>
-        <h1>푸터</h1>
-      </footer>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>윤호의 자기소개</title>
+  <style>
+    /* 기본 스타일 */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #2d87f0;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: #2d87f0;
+    }
+
+    .favorites span {
+      font-size: 1.5em;
+      margin-right: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* 반응형 디자인 */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+
+      nav a {
+        display: block;
+        margin: 5px 0;
+      }
+
+      section {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>윤호의 자기소개 홈페이지</h1>
+    <nav>
+      <a href="#intro">소개</a>
+      <a href="#likes">좋아하는 것</a>
+      <a href="#school">학교 이야기</a>
+      <a href="#respect">존경하는 분</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>안녕하세요!</h2>
+    <p>저는 태성초등학교 6학년 <strong>윤호</strong>입니다.<br>
+    요즘 코딩을 배우고 있어요. 컴퓨터로 내가 원하는 걸 만들 수 있어서 너무 재미있어요!</p>
+  </section>
+
+  <section id="likes">
+    <h2>내가 좋아하는 것들</h2>
+    <div class="favorites">
+      <p><span>🍕</span> 피자</p>
+      <p><span>🎮</span> 게임</p>
+      <p><span>🕺</span> 얼불춤 (얼쑤 불꽃 춤인가요? 😄)</p>
+      <p><span>💻</span> 코딩</p>
+      <p><span>📚</span> 수업</p>
+      <p><span>🏫</span> 학교 수업</p>
+      <p><span>🇬🇧</span> 영어</p>
     </div>
-  </body>
+  </section>
+
+  <section id="school">
+    <h2>학교생활 이야기</h2>
+    <p>우리 학교는 재미있는 수업이 많고 친구들도 친절해서 학교 가는 게 즐거워요.<br>
+    특히 코딩 수업 시간에는 내가 직접 코드를 짜서 뭔가가 만들어지는 게 신기해요!</p>
+  </section>
+
+  <section id="respect">
+    <h2>제가 존경하는 분</h2>
+    <p>저는 우리 부모님을 정말 존경해요. 항상 저를 응원해주시고, 제가 하고 싶은 걸 할 수 있도록 도와주세요.<br>
+    나중에 커서 부모님처럼 멋진 사람이 되고 싶어요!</p>
+  </section>
+
+  <footer>
+    <p>감사합니다! - 윤호 😊</p>
+  </footer>
+
+</body>
 </html>
